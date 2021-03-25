@@ -55,7 +55,7 @@
 
 
     }
-
+     
 
     .circle span {
       position: absolute;
@@ -84,6 +84,18 @@
       left: 25px;
       background: black;
       border-radius: 100%;
+      animation-name: my-fade;
+      animation-duration:3s ;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in;
+
+
+    }
+
+
+    @keyframes my-fade {
+from{opacity:0.8;}
+to{opacity: 1;}
 
     }
   </style>
